@@ -27,10 +27,10 @@ class TournFactory
 
         switch($slug) {
             case 'noc2017':
-                $tourn = new \App\Tourn\tourns\nocs\noc2017\Tourn;
+                $tourn = new tourns\nocs\noc2017\Tourn;
                 break;
             case 'noc2018':
-                $tourn = new \App\Tourn\tourns\nocs\noc2018\Tourn;
+                $tourn = new tourns\nocs\noc2018\Tourn;
                 break;
 
             default:
