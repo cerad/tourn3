@@ -2,3 +2,6 @@ index:
     path: /
     controller: App\Controller\IndexAction
 
+tourn:
+    path: /tourn/{tournSlug}
+    controller: App\Controller\TournAction
